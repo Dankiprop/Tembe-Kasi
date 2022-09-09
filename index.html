@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <title>Tembe_kasi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id ="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo1.png" class= "logo"> 
+                    <ul>
+                        <li><a href="#slideshow-container">Home</a></li>
+                        <li><a href="#header-text">About</a></li>
+                        <li><a href="#cart-modal-overlay">Shop</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </ul>
+                </nav>
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="images/img5.jpg" style="width:100%">
+    <div class="text">Welcome to Tembe Kasi</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/img4.jpg" style="width:100%">
+    <div class="text">Your one stop shop for all medical Stuff</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/img6.jpg" style="width:100%">
+    <div class="text">Buy anywhere in Kenya</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+<!--About us section-->
+                <div class="header-text">
+                    <h1>About Tembe Kasi</h1>
+           <h1>
+          Tembe Kasi is a fast and affordable<span> medical equipment ordering service</span> <br>based in Nairobi, Kenya  </h1>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos 
+            <br>
+          dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi,<br>
+          id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
+          optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+          Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+
+                    </p>
+                </div>
+        </div>
+      
+ <!--  cart Section  -->
+ <div class="cart-modal-overlay">
+  <div class="cart-modal">
+    <i id="close-btn" class="fas fa-times"></i>
+      <h1 class="cart-is-empty">Cart is empty</h1>
+    
+      <div class="product-rows">
+      </div>
+      <div class="total">
+        <h1 class="cart-total">TOTAL</h1>
+          <span class="total-price">Ksh.0</span>
+            <button class="purchase-btn">PURCHASE</button>
+      </div>
+    </div>
+  </div>
+<!--   end of cart modal -->
+<div class="cart-btn">
+  <i id="cart" class="fas fa-shopping-cart"></i>
+    <span class ="cart-quantity">0</span>
+</div>
+<!--  products  -->
+<div class="items-container">
+  <div class="card-1 card">
+    <img class="product-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMoCFepuYoOcN6IQ_nog7hKDahxJhpbW1nfA&usqp=CAU" alt="">
+      <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">Ksh.1395</span>
+  </div>
+  <div class="card-2 card">
+    <img class="product-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMn0zFd6aXMzCq7VJNbURf5d_hVJK9txX6Ww&usqp=CAU" alt="">
+    <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">Ksh.1175</span>
+  </div>
+  <div class="card-3 card">
+    <img class="product-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yhENmvEV2X9LU3LoF0g4I0fAT6rpTzC69g&usqp=CAU" alt="">
+      <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">Ksh.1150</span>
+  </div>
+  <div class="card-4 card">
+    <img class="product-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6rY67hqnpQ1V3RWE4WM7MwJwBFjRy2oIslg&usqp=CAU" alt="">
+       <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">Ksh.75</span>
+  </div>
+  <div class="card-5 card">
+    <img class="product-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnkg8KYlDW00z4kyKAgVJ3Be223UNBhzXzmA&usqp=CAU" alt="">
+       <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">Ksh.575</span>
+  </div>
+  <div class="card-6 card">
+    <img class="product-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIycKU5j-y0DNracCQfsgUNRrMzOW7CGdqxA&usqp=CAU" alt="">
+       <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">Ksh.155</span>
+  </div>
+  <div class="card-7 card">
+    <img class="product-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhDy7wFhhJvnsvO8TSSgInEb9dSftmdY6GJw&usqp=CAU" alt="">
+    <button class="add-to-cart">Add to cart</button>
+    <span class="product-price">Ksh.1230</span>
+  </div>
+  <div class="card-8 card">
+    <img class="product-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV6N6IJpc0nm7FMP-aaP6eIFKyjmqf-kjKzw&usqp=CAU" alt="">
+    <button class="add-to-cart">Add to cart</button>
+    <span class="product-price">Ksh.1230</span>
+  </div>
+</div>
+
+<!--  end of products  -->
+
+
+
+
+<!--Contact us section-->
+<section class="contact">
+    <div class="layout">   
+          <div class="text-center">
+            <h1 class="section-title">Contact Us</h1>
+            <p>Feel free to contact us incase of any problem through the form below</p>
+          </div>
+          <div class="grid-8 form">
+            <form method="post" id="contact_form" name="contactForm">
+              <div class="form-inline clearfix">
+                <div class="form-group grid-6 ">
+                  <input type="text" placeholder="name" id="exampleInputName" name="name" class="form-control">
+                </div>
+                <div class="form-group grid-6">
+                  <input type="email" placeholder="email address" id="exampleInputEmail" name="email" class="form-control">
+                </div>
+                <div class="form-group grid-6">
+                  <input type="text" placeholder="subject" id="exampleInputSubject" name="subject" class="form-control">
+                </div>
+                <div class="form-group grid-6">
+                  <input type="text" placeholder="company" id="exampleInputCompany" name="company" class="form-control">
+                </div>
+                <div class="form-group grid-12">
+                  <textarea placeholder="message" id="exampleInputMessage" rows="3" name="message" class="form-control"></textarea>
+                </div>
+              </div>
+              <div id="submit" class="form-group grid-12">
+                <input type="submit" value="send" class="btn  btn-lg costom-btn" id="send_message">
+              </div>
+            </form>
+          </div>
+          <div class="grid-12">       
+            <div class="icon-text">
+          
+            </div>
+            <div class="icon-holder">
+              <ul>
+                <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+              
+              </ul>
+            </div>
+          </div>    
+    </div>  
+
+  </section>  
+  <script type="text/javascript" src="index.js"></script>
+    </body>
