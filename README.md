@@ -19,7 +19,7 @@ This is a platform that enables clients to order medicine from anywhere e.g the 
 # Errors and bugs
 
 If something is not behaving intuitively, it is a bug and should be reported.
-Report it here by creating an issue: https://github.com/datamade/your-repo-here/issues
+Report it here by creating an issue: https://github.com/datamade/https://github.com/Dankiprop/Tembe-Kasi/issues
 
 Help us fix the problem as quickly as possible by following [Mozilla's guidelines for reporting bugs.](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines#General_Outline_of_a_Bug_Report)
 
@@ -33,4 +33,4 @@ Your patches are welcome. Here's our suggested workflow:
 
 ## Copyright and attribution
 
-Copyright (c) 2016 DataMade. Released under the [MIT License](https://github.com/datamade/your-repo-here/blob/master/LICENSE).
+Copyright (c) 2016 DataMade. Released under the [MIT License](https://github.com/datamade/https://github.com/Dankiprop/Tembe-Kasi/blob/master/LICENSE).
